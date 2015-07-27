@@ -1,0 +1,22 @@
+<template name="newMessage">
+  <div class="new-message container">
+    <div class="row">
+      <div class="col-lg-offset-2 col-lg-8">
+        <h1>Enter your one-time message, seal it, and send it.</h1>
+        <form id="new-message-form" method="POST">
+          <div class="form-group input-group">
+            <span class="input-group-addon" aria-hidden="true" title="message">
+              <i class="fa fa-comment fa-2x"></i>
+            </span>
+            <textarea id="message" class="form-control input-lg" name="message" rows="4" placeholder="your message"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-default btn-lg">
+              Seal It
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>

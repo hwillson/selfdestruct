@@ -1,0 +1,23 @@
+<template name="commonLayout">
+
+  <div class="header">
+    <div class="title-wrapper">
+      <h1 class="title">selfdestruct<span>.io</span></h1>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="container">
+      {{> Template.dynamic template=body}}
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="pull-right">
+        <h4 class="copyright">Octonary Inc. &copy; 2015</h4>
+      </div>
+    </div>
+  </div>
+
+</template>
